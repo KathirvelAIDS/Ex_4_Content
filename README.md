@@ -30,7 +30,7 @@ Program:
 Program to print the contact details by creating own content providers in Android Studio
 Developed by:   KATHIRVEL A
 RegisterNumber:  212221230047
-
+```
 MainActivity.java:
 package com.example.contentprovider;
 import android.os.Bundle;
@@ -48,6 +48,8 @@ import android.provider.ContactsContract;
 import android.util.Log;
 import android.view.View;
 import java.util.Objects;
+```
+
 
 
 ```
@@ -82,6 +84,9 @@ public class MainActivity extends AppCompatActivity {
 }
 ```
 
+
+
+```
 activity_main.xml:
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -108,7 +113,9 @@ activity_main.xml:
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+```
 
+```
 AndroidManifest.xml
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
@@ -138,6 +145,9 @@ AndroidManifest.xml
     </application>
 
 </manifest>
+
+```
+
 
 
 
